@@ -13,7 +13,9 @@ It allows users to create accounts and chat with other users in the system in re
 <img src="http://localhost:8888/personalweb/images/Chatbox/chatbox_mobile.png" alt="chatbox mobile" width="300"/>
 <img src="http://localhost:8888/personalweb/images/Chatbox/create_group.png" alt="chatbox create group" width="500"/>
 </div>
-***
+
+---
+
 #### We Are Trojans Network (WAT) (2014-2015)
 We Are Trojan is a network that brings Trojans together and acknowledge those who define the meaning of being a Trojan.
 
