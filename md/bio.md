@@ -1,0 +1,8 @@
+## Punyawee Pakdiying
+
+Welcome to my personal website
+
+### Biostatement
+```
+Punyawee Pakdiying is currently a graduate student pursuing a master's degree in Computer Science at University of Southern California.
+He earned his bachelor’s degree with in Computer Engineering with first class honors at King Mongkut’s Institute of Technology Ladkrabang (KMITL) in Thailand. During his undergraduate years, he not only focused on his study but also participated in a softball and baseball club in the university. After graduation, Punyawee Pakdiying worked as a software developer for Softplus Technology, a software house company, in Thailand for 2 years. At that time, his responsibility was to develop enterprise Java web applications for the customers, using Java technology and various types of frameworks, such as Spring, Hibernate, JUnit, and ExtJS (Sencha). After resigning from the company, he worked as a software freelancer acquiring both Web (Java and PHP) and mobile projects.Punyawee Pakdiying begins his graduate study in Computer Science at University of Southern California (USC) in 2014 fall semester. Punyawee is interested in designing and developing software on a variety of platforms such as Desktop, Web, and Mobile. He also yearns for gaining more insightful knowledge regarding the software design, development, and implementation.Punyawee is determined for creating challenging and innovative software products that could support people world wide. He is always eager to learn something new and apply new knowledge towards his work. He also emphasizes in teamwork and values work and collaboration among team.```

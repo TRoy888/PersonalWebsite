@@ -1,0 +1,14 @@
+body{
+  padding-top: 51px;
+}
+#logo{
+  float:left;
+  margin: -8px 10px 0 0;
+  width: 40px;
+}
+#main-container{
+  min-height: 550px;
+}
+pre {
+  word-wrap: break-word !important;
+}

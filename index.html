@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <title>Punyawee Pakdiying</title>
+  <meta name="Description" content="Punyawee Pakdiying's personal website." />
+  <meta name="Keywords" content="Software Engineer, Software Developer, Java, Javascript, HTML/CSS, PHP, etc." />
+  <meta name=”robots” CONTENT= "INDEX, FOLLOW"/>
+  <meta property="og:url" content="http://www.pakdiying.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Punyawee Pakdiying" />
+  <meta property="og:description" content="Punyawee Pakdiying's personal website." />
+  <meta property="og:image" content="https://scontent-lax3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1513661_777195639011103_3572145850855024687_n.jpg?oh=ba27095e61b14c8da6921434be4e2650&oe=573CE1D3" />
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <!--NAV-->
+  <nav  class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" title="home page" class="navbar-brand">
+          <img id="logo" alt="logo" src="https://scontent-lax3-1.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/1186160_571744529556216_895460858_n.jpg?oh=997bb9e86c5ca5caff00f29244fa7bb9&oe=576FD411"/>
+          <span>Punyawee Pakdiying</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="menu-nav" href="md/bio.html">Home</a></li>
+          <li><a class="menu-nav" href="md/profile.html">Profile</a></li>
+          <li><a class="menu-nav" href="anime_profile.html">Animation Profile</a></li>
+          <li><a class="menu-nav" href="resume.html">Resume</a></li>
+          <li><a class="menu-nav" href="project.html">Projects</a></li>
+          <li><a class="menu-nav" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--END NAV-->
+
+  <!--CONTENT-->
+  <div class="container" id="main-container" >
+    <section>
+    <div class="row">
+      <div class="col-lg-12" id="content">
+      </div>
+    </div>
+    </section>
+  </div>
+  <!--END CONTENT-->
+
+  <!--FOOTER-->
+  <footer class="well text-center" style="margin-bottom: 0px;">
+    <ul class="list-inline">
+      <li><a title="linkedin profile" href="https://www.linkedin.com/in/punyawee" target="_blank">Linkedin</a></li>
+      <li><a title="facebook" href="https://www.facebook.com/punyawee.pakdiying" target="_blank">Facebook</a></li>
+      <li><a title="twitter" href="https://twitter.com/Punyawee_P" target="_blank">Twitter</a></li>
+      <li><a title="github" href="https://github.com/TRoy888" target="_blank">Github</a></li>
+    </ul>
+    &copy;Copyright @ 2016
+  </footer>
+  <!--END FOOTER-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+      $('.menu-nav').click(function(){
+        $('#content').load($(this).attr('href'));
+        return false;
+      });
+    });
+  </script>
+</body>
+</html>
