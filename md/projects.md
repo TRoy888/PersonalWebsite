@@ -3,6 +3,9 @@
 #### Chatbox (2015)
 The project is developed using Node.js, socket.io with the Express framework.
 It allows users to create accounts and chat with other users in the system in real time as well as having an ability to create group chats among friends.
+
+##### Link: http://pakdiying.com:3000/chat
+
 <div style="text-align:center;">
 <img src="http://localhost:8888/personalweb/images/Chatbox/chatbox_desktop.png" alt="chatbox desktop" width="500px"/>
 </div>
