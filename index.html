@@ -35,7 +35,7 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="menu-nav" href="md/bio.html">Home</a></li>
+          <li><a class="menu-nav" id="home" href="md/bio.html">Home</a></li>
           <li><a class="menu-nav" href="md/profile.html">Profile</a></li>
           <li><a class="menu-nav" href="anime_profile.html">Animation Profile</a></li>
           <li><a class="menu-nav" href="resume.html">Resume</a></li>
@@ -73,6 +73,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script>
     $(document).ready(function(){
+      $('#content').load($("#home").attr('href'));
       $('.menu-nav').click(function(){
         $('#content').load($(this).attr('href'));
         return false;
