@@ -7,11 +7,11 @@ It allows users to create accounts and chat with other users in the system in re
 ##### Link: http://pakdiying.com:3000/chat
 
 <div style="text-align:center;">
-<img src="http://localhost:8888/personalweb/images/Chatbox/chatbox_desktop.png" alt="chatbox desktop" width="500px"/>
+<img src="http://localhost:8888/personalweb/images/Chatbox/chatbox_desktop.png" alt="chatbox desktop" width="500"/>
 </div>
 <div style="text-align:center;">
-<img src="http://localhost:8888/personalweb/images/Chatbox/chatbox_mobile.png" alt="chatbox mobile" width="300px"/>
-<img src="http://localhost:8888/personalweb/images/Chatbox/create_group.png" alt="chatbox create group" width="500px"/>
+<img src="http://localhost:8888/personalweb/images/Chatbox/chatbox_mobile.png" alt="chatbox mobile" width="300"/>
+<img src="http://localhost:8888/personalweb/images/Chatbox/create_group.png" alt="chatbox create group" width="500"/>
 </div>
 ***
 #### We Are Trojans Network (WAT) (2014-2015)
@@ -25,9 +25,9 @@ The aim of the project is to create a platform that encourages USC students to c
   3. Designed and maintained UML diagrams used in the project.
 
 ##### Screenshots:
-<p style="text-align:center;">
-<img src="http://localhost:8888/personalweb/images/WAT/main_screen.png" alt="WAT main screen" width="500px"/>
-</p>
-<p style="text-align:center;">
-<img src="http://localhost:8888/personalweb/images/WAT/search_result.png" alt="WAT search result screen example" width="500px"/>
-</p>
+<div style="text-align:center;">
+<img src="http://localhost:8888/personalweb/images/WAT/main_screen.png" alt="WAT main screen" width="500"/>
+</div>
+<div style="text-align:center;">
+<img src="http://localhost:8888/personalweb/images/WAT/search_result.png" alt="WAT search result screen example" width="500"/>
+</div>
