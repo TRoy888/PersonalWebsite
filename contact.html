@@ -11,28 +11,29 @@
         <div class="col-lg-8">
           <h3>Contact</h3>
           <hr>
+          <div id="response" class="alert alert-success" style="display:none;"></div>
           <form class="form-horizontal" role="form" method="post" action="contact.php">
             <div class="form-group">
               <label class="control-label col-sm-2" for="name">Name:</label>
               <div class="col-sm-10">
-                <input type="text" class="form-control" id="name" placeholder="Please enter your name here">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Please enter your name here">
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-2" for="email">Email:</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="email" placeholder="Please enter an email for me to contact back">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Please enter an email for me to contact back">
               </div>
             </div>
             <div class="form-group">
               <label class="control-label col-sm-2" for="messages">Messages:</label>
               <div class="col-sm-10">
-                <textarea class="form-control" id="messages" placeholder="Please enter messages here" rows="5"></textarea>
+                <textarea class="form-control" id="messages" name="message" placeholder="Please enter messages here" rows="5"></textarea>
               </div>
             </div>
             <div class="form-group">
               <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Send</button>
+                <div id="submit" class="btn btn-default">Send</div>
               </div>
             </div>
           </form>
@@ -43,4 +44,38 @@
       </div>
     </section>
   </div>
+  <script>
+  $(document).ready(function(){
+    $("#submit").click(function(){
+      $.ajax({
+        url: "http://localhost:8888/personalweb/contact.php",
+        method: 'POST',
+        data:{
+          name: $('#name').val()
+          , email: $('#email').val()
+          , message: $('#messages').val()
+        }
+      }).done(function(data) {
+
+        data = eval('('+data+')');
+        if(data.success){
+          $("#response").removeClass("alert-danger");
+          $("#response").addClass("alert-success");
+        } else {
+          $("#response").addClass("alert-danger");
+          $("#response").removeClass("alert-success");
+        }
+        $("#response").append(data.messages);
+        $("#response").fadeIn();
+        setTimeout(function(){
+          $("#response").fadeOut();
+          setTimeout(function(){
+            $("#response").text('');
+          }, 500);
+        }, 5000);
+      });
+    });
+  });
+
+  </script>
 </body>
