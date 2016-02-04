@@ -2,7 +2,6 @@
   <style>
   iframe {
     width: 740px;
-    height: 1100px;
   }
   .i-div{
     margin: auto;
@@ -12,6 +11,11 @@
 </head>
 <body>
   <div class="i-div">
-    <iframe src="https://docs.google.com/document/d/1MXh8cSqbgKVMCf_mGeGa7R-6IcXurrknYoc__ekI_Yw/pub?embedded=true" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+    <iframe src="https://docs.google.com/document/d/1MXh8cSqbgKVMCf_mGeGa7R-6IcXurrknYoc__ekI_Yw/pub?embedded=true" allowfullscreen></iframe>
   </div>
 </body>
+<script>
+$(document).ready(function(){
+  $('iframe').height($('#main-container').height()-10);
+})
+</script>

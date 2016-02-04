@@ -59,7 +59,7 @@
   <!--END CONTENT-->
 
   <!--FOOTER-->
-  <footer class="well text-center" style="margin-bottom: 0px;">
+  <footer class="well text-center" style="margin-bottom: 0; margin-top: 10px;">
     <ul class="list-inline">
       <li><a title="linkedin profile" href="https://www.linkedin.com/in/punyawee" target="_blank">Linkedin</a></li>
       <li><a title="facebook" href="https://www.facebook.com/punyawee.pakdiying" target="_blank">Facebook</a></li>
@@ -78,6 +78,7 @@
         $('#content').load($(this).attr('href'));
         return false;
       });
+      $('#main-container').css('min-height', $(window).height()-161);
     });
   </script>
 </body>
