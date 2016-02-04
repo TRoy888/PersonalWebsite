@@ -30,6 +30,7 @@ The aim of the project is to create a platform that encourages USC students to c
 <div style="text-align:center;">
 <img src="http://pakdiying.com/images/WAT/main_screen.png" alt="WAT main screen" width="500"/>
 </div>
+<br>
 <div style="text-align:center;">
 <img src="http://pakdiying.com/images/WAT/search_result.png" alt="WAT search result screen example" width="500"/>
 </div>
